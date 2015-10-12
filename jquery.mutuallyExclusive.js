@@ -57,7 +57,7 @@
                     });
 
                     // Rebuild the Chosen dropdowns after modifying select options.
-                    $select.trigger("liszt:updated");
+                    $select.trigger("chosen:updated");
                 });
             });
         }
